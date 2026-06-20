@@ -26,7 +26,7 @@ The premise: a system for managing employees (Developers and Managers in this ca
 
 - Getting the password-gated salary logic and the redacted `__repr__` to behave consistently across two different employee types, took a few (i mean a lot evn with Claudes help) passes before it actually clicked.
 
-## What I'd change later on
+## What I'll change later on
 
 - Real password hashing instead of plain string comparison
 - Pull the logging setup into its own module instead of having it at the top of the file
